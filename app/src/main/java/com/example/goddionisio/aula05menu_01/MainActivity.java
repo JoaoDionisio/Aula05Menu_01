@@ -24,12 +24,15 @@ public class MainActivity extends AppCompatActivity {
             case R.id.item1:
                 Toast.makeText(getApplicationContext(),"Usados Android",Toast.LENGTH_LONG).show();
                 return true;
+
             case R.id.item2:
                 Toast.makeText(getApplicationContext(),"Usados Apple",Toast.LENGTH_LONG).show();
                 return true;
+
             case R.id.item3:
                 Toast.makeText(getApplicationContext(),"Usados Windows",Toast.LENGTH_LONG).show();
                 return true;
+
             default:
                 return super.onOptionsItemSelected(item);
         }
